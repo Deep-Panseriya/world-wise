@@ -1,7 +1,9 @@
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import styles from "./Map.module.css";
+import { useSearchParams } from "react-router-dom";
 
 export default function Map() {
+    const [searchParams] = useSearchParams()
   return (
     <div className={styles.mapContainer}>
       <MapContainer
