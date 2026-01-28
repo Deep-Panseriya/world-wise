@@ -5,7 +5,7 @@ export default function HomePage() {
   return (
     <div className={styles.homepage}>
       <PageNav />
-      
+
       <section>
         <h1>
           You travel the world.
