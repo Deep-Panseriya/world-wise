@@ -6,6 +6,22 @@ export default function HomePage() {
     <div className={styles.homepage}>
       <PageNav />
 
+  const presaleLinks = {
+    condos: [
+      'Surrey Condos',
+      'Vancouver Condos',
+      'Langley Condos',
+      'Coquitlam Condos',
+      'Burnaby Condos',
+      'Richmond Condos',
+    ],
+    townhomes: [
+      'Surrey Townhomes',
+      'Langley Townhomes',
+      'Coquitlam Townhomes',
+      'Burnaby Townhomes',
+    ]
+  };
       <section>
         <h1>
           You travel the world.
