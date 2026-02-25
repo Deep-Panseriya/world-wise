@@ -1,0 +1,10 @@
+How page workd
+First, main layout is pageNav layout 
+Every page is pageNav 
+
+AppLayout page for Sidebar and Map
+AppNav for City and 
+In sidebar component import AppNav
+Sidebar is Logo -> After AppNav -> After Footer
+
+Basically In AppLayout is one part is Sidebar and right part is Map
