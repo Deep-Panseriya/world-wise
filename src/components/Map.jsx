@@ -6,7 +6,8 @@ import { useState } from "react";
 export default function Map() {
     const [searchParams] = useSearchParams()
     const lat = searchParams.get("lat")
-    console.log(lat)
+    const lng = searchParams.get("lng")
+    console.log(lat , lng)
     const [position , setPosition] = useState([40,0])
   return (
     <div className={styles.mapContainer}>
